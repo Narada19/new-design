@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/unlock-your-growthfcc3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -66,7 +65,11 @@
       <workItem from="1616678758482" duration="81000" />
       <workItem from="1616679068649" duration="252000" />
       <workItem from="1616679718112" duration="23000" />
-      <workItem from="1616680034982" duration="6725000" />
+      <workItem from="1616680034982" duration="6937000" />
+      <workItem from="1616732043025" duration="1989000" />
+      <workItem from="1616852479942" duration="4382000" />
+      <workItem from="1616906585695" duration="1500000" />
+      <workItem from="1616932701588" duration="4468000" />
     </task>
     <servers />
   </component>

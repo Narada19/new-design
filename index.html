@@ -9,18 +9,16 @@
     
     <!-- HEADER BLOCK GRID 4 -->
     <link href="http://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../wso2.cachefly.net/wso2/sites/all/2020-theme-november/css/bootstrap.min.css" >
-    <script src="../wso2.cachefly.net/wso2/sites/all/2020-theme-november/js/jquery-3.2.1.min.js" ></script>
-    <script src="../wso2.cachefly.net/wso2/sites/all/2020-theme-november/js/popper.min.js"></script>
-    <script src="../wso2.cachefly.net/wso2/sites/all/2020-theme-november/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../wso2.cachefly.net/wso2/sites/all/2020-theme-november/css/common-styles-2020-november.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/common-styles-2020-november.css"/>
+
+    <script src="js/jquery-3.2.1.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
 
-    <!-- HEADER BLOCK GRID 4 -->
-    <link href="http://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="//wso2.cachefly.net/wso2/sites/all/2020-theme-november/css/bootstrap.min.css" > -->
 
     <style>
         /*!
@@ -367,6 +365,9 @@
             background-image: radial-gradient(#ffffff 1px, transparent 1px);
             background-size: 20px 20px; */
 
+        }
+        img {
+            max-width: 150%;
         }
         .cHomepageHeader h1 {
             font-size: 55px;
@@ -731,10 +732,15 @@
         width: 100px;
         padding: 10px 0;
     }
+    /*.cMenuPositionRelative {*/
+    /*    position: relative;*/
+    /*    width:320px;*/
+    /*}*/
     .cMenuPositionRelative {
         position: relative;
-        width:320px;
+        width: 250px;
     }
+
     .cMenuMargin {
         margin-right:50px;
         float:right;
@@ -956,7 +962,7 @@
         text-transform: uppercase;
         display: inline-block;
         padding: 6px 18px;
-        background-color: #ff7300;
+        background-color: #b7222a;;
         margin-top: 18px;
         margin-right:20px;
     }
@@ -1096,7 +1102,7 @@
 
 <nav class="cWSO2DeskNav navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="" alt="WSO2 Logo"/></a>
+        <a class="navbar-brand" href="index.html"><img src="./img/embrace-4a.png" alt="Logo"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile_nav" aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -1104,7 +1110,7 @@
             <!-- <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-md-right">
                <li>test</li>
                </ul> -->
-            <ul class="navbar-nav  mr-auto mt-2 mt-lg-0 float-md-right">
+            <ul class="navbar-nav  ml-auto mt-2 mt-lg-0 float-md-right">
                 <!-- <li class="nav-item">
                    </li> -->
                 <li class="nav-item dropdown megamenu-li dmenu">
@@ -1873,48 +1879,6 @@
     </div>
 </section>
 
-<style>
-    .component:not(.content-width) {
-        width: 100%;
-    }
-
-    .component {
-        box-sizing: border-box;
-    }
-    .fis-fullpage-promosimple-wrapper h2 {
-        font-size: 54rem;
-    }
-    .fis-fullpage-promosimple-wrapper h2 {
-        font: normal 40rem/40rem 'Titillium Web',sans-serif;
-        font-size: 40rem;
-        letter-spacing: inherit;
-    }
-    .fis-text-base {
-        color: #012834 !important;
-    }
-    .fis-fullpage-promosimple-wrapper .content {
-        padding-bottom: 180rem;
-        padding-left: 0;
-    }
-    .fis-fullpage-promosimple-wrapper .content {
-        padding: 80rem 15rem 400rem 15rem;
-        padding-bottom: 400rem;
-        padding-left: 15rem;
-    }
-
-    .fis-fullpage-promosimple-wrapper h2 {
-        font: normal 40rem/40rem 'Titillium Web',sans-serif;
-        font-size: 40rem;
-        letter-spacing: inherit;
-    }
-    .fis-text-base {
-        color: #012834 !important;
-    }
-
-
-
-</style>
-
 <section class="bg-white p-0">
     <!--start MyStoreBanner.cshtml-->
     <div class="component MyStoreBanner">
@@ -2021,11 +1985,144 @@
 </section>
 
 <section class="bg-white p-0">
-    <div class="">
+    <duv class="bg-skyblue">
+    <div class="container">
+        <!-- Second Row [Team]-->
+<!--        <h2 class="font-weight-bold mb-2">Our Team</h2>-->
+<!--        <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>-->
 
+        <div class="row py-5 my-5">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799922/profile-1_dewapk.jpg" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Mark Rockwell</h5>
+                            <p class="small text-muted">CEO - Consultant</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799922/profile-3_ybnq8v.jpg" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Mark Rockwell</h5>
+                            <p class="small text-muted">CEO - Consultant</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <!-- Card-->
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799924/profile-4_s3fort.jpg" alt="" class="w-100 card-img-top">
+                        <div class="p-4">
+                            <h5 class="mb-0">Mark Rockwell</h5>
+                            <p class="small text-muted">CEO - Consultant</p>
+                            <ul class="social mb-0 list-inline mt-3">
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </duv>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="four col-md-3">
+                <div class="counter-box colored"> <i class="fa fa-thumbs-o-up"></i> <span class="counter">2147</span>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fa fa-group"></i> <span class="counter">3275</span>
+                    <p>Registered Members</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fa fa-shopping-cart"></i> <span class="counter">289</span>
+                    <p>Available Products</p>
+                </div>
+            </div>
+            <div class="four col-md-3">
+                <div class="counter-box"> <i class="fa fa-user"></i> <span class="counter">1563</span>
+                    <p>Saved Trees</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
+
+<!----------- Footer ------------>
+<footer class="footer-bs">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4 footer-brand animated fadeInLeft">
+            <h2>Logo</h2>
+            <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
+            <p>© 2014 BS3 UI Kit, All rights reserved</p>
+        </div>
+        <div class="col-md-4 footer-nav animated fadeInUp">
+            <h4>Menu —</h4>
+            <div class="col-md-6">
+                <ul class="pages">
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Nature</a></li>
+                    <li><a href="#">Explores</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Advice</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 footer-ns animated fadeInRight">
+            <h4>Newsletter</h4>
+            <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+            <p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+              </span>
+            </div><!-- /input-group -->
+            </p>
+        </div>
+    </div>
+    </div>
+</footer>
 
 
 
@@ -2128,6 +2225,22 @@
     $('.carousel').carousel({
         interval: 6000
     })
+
+    $(document).ready(function() {
+
+        $('.counter').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
+    });
 
     // HOME BANNER
 </script>
