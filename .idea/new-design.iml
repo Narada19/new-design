@@ -7,5 +7,6 @@
     <orderEntry type="library" name="jquery-3.5.1.slim" level="application" />
     <orderEntry type="library" name="slick" level="application" />
     <orderEntry type="library" name="slick-animation" level="application" />
+    <orderEntry type="library" name="OwlCarousel2" level="application" />
   </component>
 </module>

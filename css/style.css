@@ -141,14 +141,14 @@ a.navbar-brand {
     transform: rotate(180deg);
     margin-top:-24px;
 }
-.cSelected.cProducts { margin-left: 170px; }
+/*.cSelected.cProducts { margin-left: 170px; }*/
 .cSelected.cCustomers { margin-left: 225px; }
 .cSelected.cPartners { margin-left: 300px; }
-.cSelected.cCompany { margin-left: 512px; }
-.cSelected.cSolutions { margin-left: 282px; }
-.cSelected.cLearn { margin-right: 800px; float: right; }
+.cSelected.cCompany { margin-left: 380px; }
+.cSelected.cSolutions { margin-left: 490px; }
+.cSelected.cLearn { margin-right: 620px; }
 .cSelected.cLearn.cMenuScroll { margin-right: 265px; float: right; }
-.cSelected.cSupport { margin-right: 570px; float: right; background-image: none; background-color: transparent; }
+.cSelected.cSupport { margin-left: 715px; /*float: right; background-image: none; background-color: transparent;*/ }
 .cSelected.cLoginMenuBlock { margin-left: 155px; }
 .cSelected.cSupport.cMenuScroll { margin-right: 175px; float: right; background-image: none; background-color: transparent; }
 /* section.cMenu .cSelected {
@@ -632,7 +632,7 @@ a.cButton:hover { background-color: #ff7300; color: #000; text-decoration: none;
     background-size: 20px 20px; */
 
 }
- .site_logo img {
+.site_logo img {
     max-width: 12rem;
 }
 .cHomepageHeader h1 {
@@ -748,6 +748,9 @@ section.cHomepageHeader.cMobileHeader h1 {
     height: auto;
 }
 
+@media screen and (max-width: 1366px) {
+
+}
 
 @media screen and (max-width: 1200px) {
     /* .container { max-width: 1120px; } */
@@ -756,6 +759,8 @@ section.cHomepageHeader.cMobileHeader h1 {
     .cAnalystReports .cCitations  h3 { font-size: 18px; line-height: 26px; font-weight: 400; margin: 0 0 7px; min-height: 50px; }
     .cAnalystReports .cCitations  h2 { font-size: 30px; line-height: 36px; font-weight: 700; margin: 0 0 7px; letter-spacing: 0.5px; min-height: 70px; }
     .cAnalystReports .cCitations .cReport { min-height: 230px; }
+
+
 }
 @media screen and (max-width: 1100px) {
     .cAnalystReports .cCitations .cReport { min-height: 250px; }
