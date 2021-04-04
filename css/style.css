@@ -179,7 +179,7 @@ a.dropdown-toggle::before , a.cSingleLink::before  {
     height: 5px;
     left: 50%;
     top:-1px;
-    background-color: #ff7300;
+    background-color: #b7222a;
     transition: all ease-in-out .2s;
 }
 a.dropdown-toggle:hover::before , a.cSingleLink:hover::before {
@@ -190,7 +190,7 @@ a.dropdown-toggle:hover::before , a.cSingleLink:hover::before {
     width:100% !important;
 }
 .cActiveMenu a.dropdown-toggle {
-    color: #ef7011 !important;
+    color: #b7222a !important;
 }
 /* a.dropdown-toggle:focus {
 color: #000 !important;
@@ -257,7 +257,7 @@ color: #000 !important;
     border:1px solid transparent;
 }
 .cMenuHighlightBox a:hover img {
-    border:1px solid #ff7300;
+    border:1px solid #b7222a;
 }
 .cMenuHighlightBox.cCompamy a {
     min-height:200px;
@@ -274,7 +274,7 @@ color: #000 !important;
     display:inline-block;
     width:100%;
     padding:1.5rem;
-    border:1px solid #ff7300;
+    border:1px solid #b7222a;
     background:#d7e2de;
 }
 .cMenuHighlightBox.cCompamy  img {
@@ -348,6 +348,10 @@ a.cContactButton:hover , a.cSupportLoginButton:hover {
     color:#fff !important;
     text-decoration:none !important;
     background:#000 !important;
+}
+
+.text-red{
+    color: #b7222a;;
 }
 
 
@@ -468,7 +472,7 @@ input[type="search"].ExpInput { -webkit-appearance: none; -webkit-border-radius:
     .cMobileSearch {
         width:100%;
         padding: 10px;
-        border:1px solid #ff7300;
+        border:1px solid #b7222a;
     }
     a.cLoginLink {
         margin-top:0;
@@ -611,10 +615,12 @@ a:hover {
 }
 
 .cDesktopHeader {display:block;}
-a.cButton { margin-right: 10px; display: inline-block; border-radius: 3px; font-size: 16px; font-weight: 500; padding: 7px 17px; background-color: #ff7300; color: #fff; text-transform: uppercase; letter-spacing: .25px; transition: all .2s; text-decoration: none; text-align: center; }
-a.cButton:hover { background-color: #ff7300; color: #000; text-decoration: none; }
+a.cButton { margin-right: 10px; display: inline-block; border-radius: 3px; font-size: 16px; font-weight: 500; padding: 7px 17px; background-color: #b7222a; color: #fff; text-transform: uppercase; letter-spacing: .25px; transition: all .2s; text-decoration: none; text-align: center; }
+a.cButton:hover { background-color: #b7222a; color: #000; text-decoration: none; }
 .cDarkGreyBG { background-color: #212a32; }
-
+.cDarkGreyligBG {
+    background-color: #212a32fc;
+}
 .cHomepageHeader {
     /* padding: 150px 0 230px;  */
     padding: 0px 0 0px;
@@ -663,18 +669,18 @@ a.cButton:hover { background-color: #ff7300; color: #000; text-decoration: none;
 .cAnalystReports .cCTA { border-radius: 3px; font-size: 14px; font-weight: 400; line-height: 20px; color: #fff; letter-spacing: .5px; text-transform: uppercase; display: inline-block; margin-bottom: 25px; padding: 6px 18px; background-color: #465867; }
 .cAnalystReports a:hover .cCTA { background-color: #000; color: #fff; }
 
-.cProductsSolutions { padding: 180px 0 20px; }
+.cProductsSolutions { padding: 60px 0 60px; }
 .cHomepageHeader a.cHeaderCTA { font-size: 18px; line-height: 26px; font-weight: 500; letter-spacing: .25px; text-transform: none; }
 .cProductCard { background-color: transparent; border-radius: 0; border: 0; }
-.cProductCard .card-body { padding: 0 0 100px; }
+.cProductCard .card-body { padding: 0 0 50px; }
 .cProductCard .card-body .card-title { font-size: 22px; font-weight: 300; line-height: 30px; margin-bottom: 1rem; min-height: 110px; }
 .cProductCard .card-body .card-text { font-size: 18px; font-weight: 500; line-height: 28px; min-height: 28px; }
 .cProductCard .card-body .card-list { margin: 0; padding: 0; list-style: none; }
 .cProductCard .card-body .card-list li { font-size: 18px; font-weight: 400; line-height: 28px; padding: 7px 0; border-bottom: solid .5px #fff; }
-.cProductCard .card-body .card-list li a { color: #ff7300; }
+.cProductCard .card-body .card-list li a { color: #b7222a; }
 .cProductCard .card-body .card-list li.cBottom { border-bottom: 0; }
 .cProductCard .card-body .card-list li.cTop { padding-top: 0; }
-.cProductCard .cCardIcon { min-height: 100px; }
+.cProductCard .cCardIcon { min-height: 60px; }
 .cProductCard .card-img-top { max-width: 188px; }
 .cProductCard .card-img-top.cSolutions { max-width: 258px; }
 .cSolutionCard { padding-left: 10px; }
