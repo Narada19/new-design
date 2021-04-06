@@ -796,6 +796,10 @@
         height: auto;
         overflow: hidden;
     }
+
+    .extra-h1{
+        font-size: 3.5rem;
+    }
     @media (min-width: 992px) {
         .slide .slide__img {
             position: absolute;
@@ -919,6 +923,14 @@
     .stick-dots .slick-dots li.slick-active button:hover,
     .stick-dots .slick-dots li.slick-active button:focus {
         opacity: 1;
+    }
+
+    .crop-text-4 {
+        -webkit-line-clamp: 4;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
     }
     /* /////////// IMAGE ZOOM /////////// */
     @-webkit-keyframes zoomInImage {
@@ -1055,40 +1067,61 @@
                 <div class="cHighlighted cCitations">
                     <div class="col-sm-12 col-md-12 col-lg-4">
                         <a id="iHOME-Forrester-APIM-CTA" href="#">
-                            <div class="cFrorresterAPIM">
+                            <div class="cFrorresterAPIM pb-0">
                                 <div class="cReport">
                                     <h3> M&T FLAGSHIP PRODUCT </h3>
                                     <h2> Smart Transit </h2>
-                                    <h4 class="text-truncate">Comprehensive, Interoperable, Open Standard and Cloud Ready Automated Fare Collection (AFC) Platform to Track, Collect & Automate transportation operation workflows, fleet, assets, routes, customers, drivers and other stakeholders.</h4>
+                                    <h4 class="crop-text-4 text-justify">Comprehensive, Interoperable, Open Standard and Cloud Ready Automated Fare Collection (AFC) Platform to Track, Collect & Automate transportation operation workflows, fleet, assets, routes, customers, drivers and other stakeholders.</h4>
                                     <br>
                                 </div>
-                                <div class="cCTA"> <a href="">Learn More></a> </div>
+                                <div class="row">
+                                    <div class="col-5 px-0">
+                                        <div class="cCTA"> <a href="">Learn More </a> </div>
+                                    </div>
+                                    <div class="col-7 px-0">
+                                        <img src="./img/5e.png" alt="" data-lazy="./img/main01.png"/>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4">
                         <a id="iHOME-Forrester-IS-CTA"  href="#">
-                            <div class="cKuppingercoleCIAM">
+                            <div class="cKuppingercoleCIAM pb-0">
                                 <div class="cReport">
                                     <h3> BFSI FLAGSHIP PRODUCT </h3>
                                     <h2> Smart Pay </h2>
-                                    <h4 class="text-truncate">BFSI service providers such as commercial banks, specialized banks, micro finance companies, credit unions and other payment service providers to bestow cashless, queue-less, hassle-less, financial inclusive neo banking level services to consumers, merchants and SMEs.</h4>
+                                    <h4 class="crop-text-4 text-justify">BFSI service providers such as commercial banks, specialized banks, micro finance companies, credit unions and other payment service providers to bestow cashless, queue-less, hassle-less, financial inclusive neo banking level services to consumers, merchants and SMEs.</h4>
                                     <br>
                                 </div>
-                                <div class="cCTA"> <a href="">Learn More </a> </div>
+                                <div class="row">
+                                    <div class="col-5 px-0">
+                                        <div class="cCTA"> <a href="">Learn More </a> </div>
+                                    </div>
+                                    <div class="col-7 px-0">
+                                        <img src="./img/2b.png" alt="" data-lazy="./img/main01.png"/>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-4">
                         <a  id="iHOME-Forrester-IS2-CTA"  href="#">
-                            <div class="cFrorresterCIAM">
+                            <div class="cFrorresterCIAM pb-0">
                                 <div class="cReport">
                                     <h3> RETAIL FLAGSHIP PRODUCT </h3>
-                                    <h2> Smart Shoppers </h2>
-                                    <h4 class="text-truncate">comprehensive Mobile centric, Digital Marketplace & Payment Platform for all the users across entire retail value chain, which creates a positive customer experience and better synergy with whole stakeholders. </h4>
+                                    <h2> Smart Shopper </h2>
+                                    <h4 class="crop-text-4 text-justify">comprehensive Mobile centric, Digital Marketplace & Payment Platform for all the users across entire retail value chain, which creates a positive customer experience and better synergy with whole stakeholders. </h4>
                                     <br>
                                 </div>
-                                <div class="cCTA"> <a href="">Learn More> </a></div>
+                                <div class="row">
+                                    <div class="col-5 px-0 ">
+                                        <div class="cCTA"> <a href="">Learn More </a> </div>
+                                    </div>
+                                    <div class="col-7 px-0">
+                                        <img src="./img/4d.png" alt="" data-lazy="./img/main01.png"/>
+                                    </div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -1115,9 +1148,9 @@
 <!--</section>-->
 
 <section class="cDarkGreyligBG cProductsSolutions" id="services">
-    <div class="container">
+    <div class="container mb-5">
 
-        <h1 class="h1 font-weight-bold mb-2 text-center text-white">OUR PRODUCT</h1>
+        <h1 class="h1 font-weight-bold mb-5 text-center text-white extra-h1">SERVICES</h1>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
@@ -1323,12 +1356,15 @@
     </div>
 </section>
 
+<section id="contact" class="contact py-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15845.165826974537!2d79.8881977!3d6.8556271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb52eab0dc7312f03!2sSilverleap%20Technology%20Pvt%20Ltd!5e0!3m2!1sen!2slk!4v1591543285151!5m2!1sen!2slk" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+</section>
 
 <!----------- Footer ------------>
 <footer class="footer-bs cDarkGreyBG py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 footer-brand animated fadeInLeft">
+            <div class="col-md-3 footer-brand animated fadeInLeft">
                 <a class="navbar-brand" href="index.html">
                     <div class="site_logo">
                         <img src="./img/embrace-4a.png" alt="Logo"/>
@@ -1338,37 +1374,47 @@
                 <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
                 <p>© 2021 Silverleap Technology (Pvt)Ltd, All rights reserved</p>
             </div>
-            <div class="col-md-4 footer-nav animated fadeInUp">
-<!--                <h4>Menu —</h4>-->
-<!--                <div class="col-md-6">-->
-<!--                    <ul class="pages">-->
-<!--                        <li><a href="#">Travel</a></li>-->
-<!--                        <li><a href="#">Nature</a></li>-->
-<!--                        <li><a href="#">Explores</a></li>-->
-<!--                        <li><a href="#">Science</a></li>-->
-<!--                        <li><a href="#">Advice</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-                <div class="col-md-6">
-                    <ul class="list">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contacts</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
+            <div class="col-md-3 footer-nav animated fadeInUp">
+                <h4>Contact Us </h4>
+                <ul class="list">
+                    <li> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; <a href="#">43 Dehiwala Road, Pepiliyana - Dehiwela Rd, Colombo</a></li>
+                    <li> <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; <a href="#">info@silverleap.com</a></li>
+                    <li> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; <a href="#">+94112732358</a></li>
+                    <li> <i class="fa fa-link" aria-hidden="true"></i> &nbsp; <a href="#">www.silverleap.com</a></li>
+                </ul>
             </div>
-            <div class="col-md-4 footer-ns animated fadeInRight">
-                <h4>Newsletter</h4>
+            <div class="col-md-3 footer-nav animated fadeInUp">
+                <h4>Menu </h4>
+                <ul class="list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+                <ul class="list social-media">
+                    <li class="px-2"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="px-2"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="px-2"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="px-2"><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-ns animated fadeInRight">
+                <h4>SUBSCRIBE</h4>
                 <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
-                <p>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
-              </span>
-                </div><!-- /input-group -->
-                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Enter your  Name" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter your Email" />
+                    </div>
+                    <div class="form-group ">
+                        <div class=" content">
+                            <a class="btn " href="#" role="button">Subscribe Now</a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

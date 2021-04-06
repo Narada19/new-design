@@ -384,12 +384,15 @@ a.cContactButton {
     box-shadow: none;
     border: 2px solid #243c4f;
 }
-.newsletter .content .btn {
-    min-height: 50px;
-    border-radius:0;
+.content .btn {
     background: #b7222a;
     color: #fff;
-    font-weight:600;
+    font-weight: 600;
+}
+
+
+.social-media li{
+    display: inline;
 }
 
 
@@ -606,8 +609,6 @@ a:hover {
 .counter-box.colored .counter {
     color: #fff
 }
-
-
 
 .component:not(.content-width) {
     width: 100%;

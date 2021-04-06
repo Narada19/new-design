@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5e.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/22-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/LADWP-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/analyst-report-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apim-page-animation-Provide-enhanced-API-security-and-policy-enforcement-v2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apim-page-animation-design-and-runtime-governance-for-APIs-v2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apim-page-animation-easy-exposure-of-APIs-for-internal-and-external-consumers.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apim-page-animation-get-business-insights-and-intelligence-through-APIs-v2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apim-page-animation-highly-efficient-operations-through-elastic-scalability-v2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apim-page-animation-monetization-of-digital-assets-through-APIs-v2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/customer-logos-homepage-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/customer-logos-homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gro-bank-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wo2-api-manager-sm-bnner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wo2-identity-server-sm-bnner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wso2-enterprise-integrator-bnner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wso2-home-2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wso2-sm-banner-02.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +54,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qCzDEBIJ3baqxkRslo8x2TjqnB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -78,11 +109,14 @@
       <workItem from="1617244048996" duration="22123000" />
       <workItem from="1617440360369" duration="591000" />
       <workItem from="1617533058970" duration="14088000" />
-      <workItem from="1617698679576" duration="3102000" />
+      <workItem from="1617698679576" duration="9985000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
