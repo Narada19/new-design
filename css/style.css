@@ -1223,7 +1223,7 @@ a.cButton:hover { background-color: #b7222a; color: #000; text-decoration: none;
 .cAnalystReports .cCitations a:hover { text-decoration: none; color: #000; }
 .cAnalystReports .cFrorresterAPIM, .cAnalystReports .cFrorresterCIAM, .cAnalystReports .cKuppingercoleCIAM { padding: 20px 30px 20px; border-right: solid 1px #465867; }
 .cAnalystReports .cFrorresterCIAM { border-right: 0; }
-.cAnalystReports .cCTA { border-radius: 3px; font-size: 14px; font-weight: 400; line-height: 20px; color: #fff; letter-spacing: .5px; text-transform: uppercase; display: inline-block; margin-bottom: 25px; padding: 6px 18px; background-color: #465867; }
+.cAnalystReports .cCTA { border-radius: 3px; font-size: 14px; font-weight: 400; line-height: 20px; color: #fff; letter-spacing: .5px; display: inline-block; margin-bottom: 25px; padding: 6px 18px; background-color: #465867; }
 .cAnalystReports a:hover .cCTA { background-color: #000; color: #fff; }
 
 .cProductsSolutions { padding: 60px 0 60px; }
