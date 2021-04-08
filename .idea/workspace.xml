@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pattern-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-7 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +122,8 @@
       <workItem from="1617440360369" duration="591000" />
       <workItem from="1617533058970" duration="14088000" />
       <workItem from="1617698679576" duration="10653000" />
-      <workItem from="1617804818015" duration="1293000" />
+      <workItem from="1617804818015" duration="7830000" />
+      <workItem from="1617848728158" duration="11540000" />
     </task>
     <servers />
   </component>
@@ -91,5 +132,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

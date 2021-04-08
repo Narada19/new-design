@@ -12,16 +12,19 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<!--    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">-->
+<!--    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <style>  nav.navbar {width:100%;} </style>
     <script>
-        $(document).ready(function () {
-            $('img').addClass('lazyload');
-        });
+        // $(document).ready(function () {
+        //     $('img').addClass('lazyload');
+        // });
 
     </script>
 
@@ -69,6 +72,7 @@
         .contextual-links-wrapper {display:none;}
         .region .links{display:none;}
         /*.contextual-links-region h2{display:none}*/
+        {border-left: solid 1px rgba(255,255,255,0.10);}
     </style>
 
     <!-- Start of Async Drift Code -->
@@ -170,30 +174,30 @@
     <!-- HOME GRID 4 -->
     <meta charset="UTF-8">
 
-    <script>
-        $(document).ready(function() {
-            // executes when HTML-Document is loaded and DOM is ready
-            // breakpoint and up
-            $(window).resize(function(){
-                if ($(window).width() >= 1080){
+<!--    <script>-->
+<!--        $(document).ready(function() {-->
+<!--            // executes when HTML-Document is loaded and DOM is ready-->
+<!--            // breakpoint and up-->
+<!--            $(window).resize(function(){-->
+<!--                if ($(window).width() >= 1080){-->
 
-                    // when you hover a toggle show its dropdown menu
-                    $(".navbar .dropdown-toggle").hover(function () {
-                        $(this).parent().toggleClass("show");
-                        $(this).parent().find(".dropdown-menu").toggleClass("show");
-                    });
+<!--                    // when you hover a toggle show its dropdown menu-->
+<!--                    $(".navbar .dropdown-toggle").hover(function () {-->
+<!--                        $(this).parent().toggleClass("show");-->
+<!--                        $(this).parent().find(".dropdown-menu").toggleClass("show");-->
+<!--                    });-->
 
-                    // hide the menu when the mouse leaves the dropdown
-                    $( ".navbar .dropdown-menu" ).mouseleave(function() {
-                        $(this).removeClass("show");
-                    });
+<!--                    // hide the menu when the mouse leaves the dropdown-->
+<!--                    $( ".navbar .dropdown-menu" ).mouseleave(function() {-->
+<!--                        $(this).removeClass("show");-->
+<!--                    });-->
 
-                    // do something here
-                }
-            });
-            // document ready
-        });
-    </script>
+<!--                    // do something here-->
+<!--                }-->
+<!--            });-->
+<!--            // document ready-->
+<!--        });-->
+<!--    </script>-->
 
 </head>
 <body>
@@ -264,7 +268,13 @@
                                 </div>
                                 <div class="col-sm-12 col-lg-3 cMegamenuCol">
                                     <h6>By Products</h6>
-<!--                                    <a class="cMenuLinkTracking nav-link dropdown-item" href="api-management/index.html">SMART VAS </a>-->
+                                    <div class="row cInlineMenuRow">
+                                        <div class="col-sm-12 col-lg-2 border-right cMegamenuCol mb-2">
+                                            <a class="cMenuLinkTracking nav-link dropdown-item" href="community.html">Community</a>
+                                            <a class="cMenuLinkTracking nav-link dropdown-item" href="research.html">Research</a>
+                                            <a class="cMenuLinkTracking nav-link dropdown-item" href="about/news/index.html">News</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -377,64 +387,64 @@
     </div>
 </nav>
 <script>
-    $(document).ready(function () {
-        $('.navbar-light .dmenu').hover(function () {
-            $(this).find('.sm-menu').first().stop(true, true).fadeIn(100);
-            // $(this).find('.sm-menu').parent(".dmenu").addClass('cActiveMenu');
+    // $(document).ready(function () {
+    //     $('.navbar-light .dmenu').hover(function () {
+    //         $(this).find('.sm-menu').first().stop(true, true).fadeIn(100);
+    //         // $(this).find('.sm-menu').parent(".dmenu").addClass('cActiveMenu');
+    //
+    //     }, function () {
+    //         $(this).find('.sm-menu').first().stop(true, true).fadeOut(100);
+    //         // $(this).find('.sm-menu').parent(".dmenu").removeClass('cActiveMenu');
+    //     });
+    // });
 
-        }, function () {
-            $(this).find('.sm-menu').first().stop(true, true).fadeOut(100);
-            // $(this).find('.sm-menu').parent(".dmenu").removeClass('cActiveMenu');
-        });
-    });
 
+    // $(document).ready(function () {
+    //     function buttonUp() {
+    //         var valux = $('.ExpInput').val();
+    //         valux = $.trim(valux).length;
+    //         if (valux !== 0) {
+    //             $('.Expbtn').css('z-index', '99');
+    //         } else {
+    //             $('.ExpInput').val('');
+    //             $('.Expbtn').css('z-index', '-999');
+    //         }
+    //     }
+    // });
 
-    $(document).ready(function () {
-        function buttonUp() {
-            var valux = $('.ExpInput').val();
-            valux = $.trim(valux).length;
-            if (valux !== 0) {
-                $('.Expbtn').css('z-index', '99');
-            } else {
-                $('.ExpInput').val('');
-                $('.Expbtn').css('z-index', '-999');
-            }
-        }
-    });
-
-    $(document).ready(function () {
-        var submitIcon = $('.ExpIcon');
-        var submitInput = $('.ExpInput');
-        var searchBox = $('.Exp-serach');
-        var isOpen = false;
-
-        $(document).mouseup(function () {
-            if (isOpen == true) {
-                submitInput.val('');
-                $('.Expbtn').css('z-index', '-999');
-                submitIcon.click();
-            }
-        });
-
-        submitIcon.mouseup(function () {
-            return false;
-        });
-
-        searchBox.mouseup(function () {
-            return false;
-        });
-
-        submitIcon.click(function () {
-            if (isOpen == false) {
-                searchBox.addClass('Exp-serach-open');
-                isOpen = true;
-            } else {
-                searchBox.removeClass('Exp-serach-open');
-                isOpen = false;
-            }
-        });
-
-    });
+    // $(document).ready(function () {
+    //     var submitIcon = $('.ExpIcon');
+    //     var submitInput = $('.ExpInput');
+    //     var searchBox = $('.Exp-serach');
+    //     var isOpen = false;
+    //
+    //     $(document).mouseup(function () {
+    //         if (isOpen == true) {
+    //             submitInput.val('');
+    //             $('.Expbtn').css('z-index', '-999');
+    //             submitIcon.click();
+    //         }
+    //     });
+    //
+    //     submitIcon.mouseup(function () {
+    //         return false;
+    //     });
+    //
+    //     searchBox.mouseup(function () {
+    //         return false;
+    //     });
+    //
+    //     submitIcon.click(function () {
+    //         if (isOpen == false) {
+    //             searchBox.addClass('Exp-serach-open');
+    //             isOpen = true;
+    //         } else {
+    //             searchBox.removeClass('Exp-serach-open');
+    //             isOpen = false;
+    //         }
+    //     });
+    //
+    // });
 </script>
 <!-- _______________________________________________________ MOBILE ____________________________________________________________________________________________________________________ -->
 <style>
@@ -784,9 +794,9 @@
 
 <style>
 
-        .slider, .slide {
-            height: 80vh;
-        }
+    .slider, .slide {
+        height: 80vh;
+    }
 
     .slide {
         position: relative;
@@ -1155,7 +1165,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s1.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1167,7 +1177,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s2.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1179,7 +1189,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s3.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1191,7 +1201,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s4.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1203,7 +1213,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s5.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1215,7 +1225,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s6.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1227,7 +1237,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s7.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1239,7 +1249,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3 my-4">
                 <div class="card cProductCard border">
                     <div class="cCardIcon text-center py-4">
-                        <i class="fa fa-cogs fa-5x text-red" aria-hidden="true"></i>
+                        <img class="img-fluid" src="./img/s8.png" alt="" style="width: 50%;" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title text-white">We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</h5>
@@ -1252,54 +1262,68 @@
     </div>
 </section>
 
-<section class="bg-white p-0">
+<section class="bg-white py-5 my-5">
     <duv class="bg-skyblue">
         <div class="container">
-            <!-- Second Row [Team]-->
-            <!--        <h2 class="font-weight-bold mb-2">Our Team</h2>-->
-            <!--        <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>-->
 
-            <div class="row py-5 my-5">
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card shadow-sm border-0 rounded">
-                        <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799922/profile-1_dewapk.jpg" alt="" class="w-100 card-img-top">
-                            <div class="p-4">
-                                <h2 class="mb-0"><strong> OUR PRODUCT </strong></h2>
-                                <div class="some-flex flex">
-                                    <p class="small text-muted text-truncate">Fast-track API-driven compliance, healthcare interoperability, and digital business innovation.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="toolbar mb2 mt2">
+                <button class="btn btn-gallary fil-cat btn-lg" href="" data-rel="all">All</button>
+                <button class="btn btn-gallary fil-cat btn-lg" data-rel="project">Project</button>
+                <button class="btn btn-gallary fil-cat btn-lg" data-rel="product">Product</button>
+                <button class="btn btn-gallary fil-cat btn-lg" data-rel="pr">PR</button>
+            </div>
+
+            <div id="portfolio">
+                <div class="tile scale-anm project all product">
+                    <img class="img-fluid" src="./img/portfolio-1.jpg" alt="" />
                 </div>
-
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card shadow-sm border-0 rounded">
-                        <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799922/profile-3_ybnq8v.jpg" alt="" class="w-100 card-img-top">
-                            <div class="p-4">
-                                <h2 class="mb-0"><strong> OUR PRODUCT </strong></h2>
-                                <div class="some-flex flex">
-                                    <p class="small text-muted text-truncate">Fast-track API-driven compliance, healthcare interoperability, and digital business innovation.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="tile scale-anm bcards pr all">
+                    <img class="img-fluid" src="./img/portfolio-2.jpg" alt="" />
                 </div>
-
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card shadow-sm border-0 rounded">
-                        <div class="card-body p-0"><img src="https://res.cloudinary.com/mhmd/image/upload/v1570799924/profile-4_s3fort.jpg" alt="" class="w-100 card-img-top">
-                            <div class="p-4">
-                                <h2 class="mb-0"><strong> OUR PRODUCT </strong></h2>
-                                <div class="some-flex flex">
-                                    <p class="small text-muted text-truncate">Fast-track API-driven compliance, healthcare interoperability, and digital business innovation.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="tile scale-anm project product all">
+                    <img class="img-fluid" src="./img/portfolio-3.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm product project all">
+                    <img class="img-fluid" src="./img/portfolio-4.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm flyers project all">
+                    <img class="img-fluid" src="./img/portfolio-5.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm project all">
+                    <img class="img-fluid" src="./img/portfolio-6.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm all product">
+                    <img class="img-fluid" src="./img/portfolio-7.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm all pr">
+                    <img class="img-fluid" src="./img/portfolio-8.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm all product">
+                    <img class="img-fluid" src="./img/portfolio-10.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm all project">
+                    <img class="img-fluid" src="./img/portfolio-11.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm project all">
+                    <img class="img-fluid" src="./img/portfolio-12.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm product all">
+                    <img class="img-fluid" src="./img/portfolio-13.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm all project">
+                    <img class="img-fluid" src="./img/portfolio-14.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm pr all">
+                    <img class="img-fluid" src="./img/portfolio-15.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm pr all">
+                    <img class="img-fluid" src="./img/portfolio-16.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm pr all">
+                    <img class="img-fluid" src="./img/portfolio-17.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm pr all">
+                    <img class="img-fluid" src="./img/portfolio-18.jpg" alt="" />
                 </div>
             </div>
 
@@ -1307,58 +1331,141 @@
     </duv>
 </section>
 
-<section style="    background: #00000012;">
+<section style="background: #00000012;">
     <div class="container">
         <div class="row">
             <div class="four col-md-3">
                 <div class=" text-center pt-4">
-                    <span class="counter h1 mb-3"> 147</span>
-                    <p class="mt-2 mb-0">Experience</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="counter h2 mb-3 font-weight-bold"> 700</span>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-plus fa-3x" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="col-12 text-left">
+                            <h2 class="mt-2 mb-0 font-weight-bold">Experience</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="four col-md-3">
                 <div class=" text-center pt-4">
-                    <span class="counter h1 mb-3">575</span>
-                    <p class="mt-2 mb-0">Clients</p>
+                    <div class="row">
+                        <div class="col-4">
+                            <span class="counter h2 mb-3 font-weight-bold"> 45</span>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-plus fa-3x" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="col-12 text-left">
+                            <h2 class="mt-2 mb-0 font-weight-bold">Our Team</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="four col-md-3">
                 <div class=" text-center pt-4">
-                    <span class="counter h1 mb-3">240</span>
-                    <p class="mt-2 mb-0">Created Sites</p>
+                    <div class="row">
+                        <div class="col-4">
+                            <span class="counter h2 mb-3 font-weight-bold"> 22</span>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-plus fa-3x" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="col-12 text-left">
+                            <h2 class="mt-2 mb-0 font-weight-bold">Created Sites</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="four col-md-3">
                 <div class=" text-center pt-4">
-                    <span class="counter h1 mb-3">21</span>
-                    <p class="mt-2 mb-0">Project</p>
+                    <div class="row">
+                        <div class="col-4">
+                            <span class="counter h2 mb-3 font-weight-bold"> 45</span>
+                        </div>
+                        <div class="col-2">
+                            <span><i class="fa fa-plus fa-3x" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="col-12 text-left">
+                            <h2 class="mt-2 mb-0 font-weight-bold">Project</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--<section class="newsletter cDarkGreyBG" style="padding-bottom: 5rem;">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-12">-->
-<!--                <div class="content">-->
-<!--                    <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>-->
-<!--                    <div class="input-group">-->
-<!--                        <input type="email" class="form-control" placeholder="Enter your email">-->
-<!--                        <span class="input-group-btn">-->
-<!--         <button class="btn" type="submit">Subscribe Now</button>-->
-<!--         </span>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<section id="contact" class="contact py-0">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15845.165826974537!2d79.8881977!3d6.8556271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb52eab0dc7312f03!2sSilverleap%20Technology%20Pvt%20Ltd!5e0!3m2!1sen!2slk!4v1591543285151!5m2!1sen!2slk" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+<section class="py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="">
+                        <h2 class="bbb_title text-uppercase mb-0">Selected</h2>
+                        <h1 class="text-uppercase font-weight-bold mb-0">Clients</h1>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="bbb_slider_container">
+                        <div class="owl-carousel owl-theme bbb_slider">
+                            <div class="owl-item">
+                                <div class="bbb_item is_new">
+                                    <div class=" d-flex flex-column align-items-center justify-content-center cliens">
+                                        <img class="img-fluid" src="./img/c1.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_item">
+                                    <div class=" d-flex flex-column align-items-center justify-content-center cliens">
+                                        <img class="img-fluid" src="./img/c2.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_item is_new">
+                                    <div class="d-flex flex-column align-items-center justify-content-center cliens">
+                                        <img class="img-fluid" src="./img/c3.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_item is_new">
+                                    <div class="d-flex flex-column align-items-center justify-content-center cliens">
+                                        <img class="img-fluid" src="./img/c4.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_item">
+                                    <div class="d-flex flex-column align-items-center justify-content-center cliens">
+                                        <img class="img-fluid" src="./img/c5.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="bbb_item is_new">
+                                    <div class="d-flex flex-column align-items-center justify-content-center cliens">
+                                        <img class="img-fluid" src="./img/c6.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
+
+<section class="py-0">
+    <div id="map">
+        <div class="img-container">
+            <img class="img-map" src="./img/pattern-6.png" alt="Map">
+        </div>
+        <div id="dots">
+            <div class="dot dot-15"></div>
+            <div class="dot dot-18"></div>
+            <div class="dot dot-21"></div>
+        </div>
+    </div>
+</section>
+
 
 <!----------- Footer ------------>
 <footer class="footer-bs cDarkGreyBG py-5">
@@ -1367,17 +1474,16 @@
             <div class="col-md-3 footer-brand animated fadeInLeft">
                 <a class="navbar-brand" href="index.html">
                     <div class="site_logo">
-                        <img src="./img/embrace-4a.png" alt="Logo"/>
+                        <img class="img-fluid" src="./img/embrace-4a.png" alt="Logo"/>
                     </div>
-
                 </a>
-                <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
+                <p>We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</p>
                 <p>© 2021 Silverleap Technology (Pvt)Ltd, All rights reserved</p>
             </div>
             <div class="col-md-3 footer-nav animated fadeInUp">
                 <h4>Contact Us </h4>
                 <ul class="list">
-                    <li> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; <a href="#">43 Dehiwala Road, Pepiliyana - Dehiwela Rd, Colombo</a></li>
+                    <li> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; <a href="#">43 Dehiwala Road, Pepiliyana - Colombo Sri Lanka</a></li>
                     <li> <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; <a href="#">info@silverleap.com</a></li>
                     <li> <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; <a href="#">+94112732358</a></li>
                     <li> <i class="fa fa-link" aria-hidden="true"></i> &nbsp; <a href="#">www.silverleap.com</a></li>
@@ -1425,12 +1531,12 @@
 
 <!--  js scripts  -->
 <!--<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script type="text/javascript" src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <!---->
 <script>
@@ -1550,6 +1656,19 @@
 
     });
 
+    $(function() {
+        var selectedClass = "";
+        $(".fil-cat").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(100, 0.1);
+            $("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+            setTimeout(function() {
+                $("."+selectedClass).fadeIn().addClass('scale-anm');
+                $("#portfolio").fadeTo(300, 1);
+            }, 300);
+
+        });
+    });
 </script>
 
 </html>
