@@ -1118,10 +1118,11 @@ a:hover {
 
 .counter {
     display: block;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 700;
     color: #666;
-    line-height: 28px
+    line-height: 28px;
+    font-family: Oswald,sans-serif;
 }
 
 .counter-box.colored {
