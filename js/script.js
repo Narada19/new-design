@@ -77,7 +77,7 @@ $(document).ready(function()
         var trendsSlider = $('.bbb_slider');
         trendsSlider.owlCarousel(
             {
-                loop:false,
+                loop:true,
                 margin:30,
                 nav:false,
                 dots:false,
