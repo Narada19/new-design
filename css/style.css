@@ -893,7 +893,7 @@ a.cContactButton {
     top: 75%;
     left: 78.5%;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .dot {
         width: 16px;
         height: 16px;

@@ -1461,6 +1461,99 @@
         </div>
 </section>
 
+<style>
+    /* Original pulsing dots by sharla */
+    @-webkit-keyframes pulse {
+        0% {
+            box-shadow: 0px 0px 0px 0px #346ab4;
+        }
+        100% {
+            box-shadow: 0px 0px 0px 7px rgba(52, 106, 180, 0);
+        }
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0px 0px 0px 0px #346ab4;
+        }
+        100% {
+            box-shadow: 0px 0px 0px 7px rgba(52, 106, 180, 0);
+        }
+    }
+    #map {
+        position: relative;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        -webkit-animation: pulse 1.5s infinite ease-out;
+        animation: pulse 1.5s infinite ease-out;
+        background: #346ab4;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+    }
+    .dot:before {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.4);
+    }
+    .dot:nth-child(odd) {
+        -webkit-animation: pulse 1.5s infinite ease-out 0.3s;
+        animation: pulse 1.5s infinite ease-out 0.3s;
+    }
+    .dot-15 {
+        top: 48%;
+        left: 74%;
+    }
+    .dot-18 {
+        top: 58%;
+        left: 66%;
+    }
+    .dot-21 {
+        top: 75%;
+        left: 78.5%;
+    }
+    @media (min-width: 768px) {
+        .dot {
+            width: 16px;
+            height: 16px;
+        }
+        .dot:before {
+            width: 4px;
+            height: 4px;
+        }
+        @-webkit-keyframes pulse {
+            0% {
+                box-shadow: 0px 0px 0px 0px #346ab4;
+            }
+            100% {
+                box-shadow: 0px 0px 0px 10px rgba(52, 106, 180, 0);
+            }
+        }
+        @keyframes pulse {
+            0% {
+                box-shadow: 0px 0px 0px 0px #346ab4;
+            }
+            100% {
+                box-shadow: 0px 0px 0px 10px rgba(52, 106, 180, 0);
+            }
+        }
+    }
+</style>
+
 <section class="py-0">
     <div id="map">
         <div class="img-container">
