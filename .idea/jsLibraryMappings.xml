@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{OwlCarousel2, jquery-3.5.1.slim, slick, slick-animation}" />
+    <file url="PROJECT" libraries="{OwlCarousel2, animate.css, jquery-3.5.1.slim, slick, slick-animation}" />
   </component>
 </project>
