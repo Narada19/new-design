@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -91,7 +90,7 @@
       <workItem from="1618891096122" duration="3608000" />
       <workItem from="1618933941430" duration="2677000" />
       <workItem from="1619022238040" duration="4607000" />
-      <workItem from="1619062027324" duration="2822000" />
+      <workItem from="1619062027324" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="new update change name">
       <created>1618934958088</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619068049763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add a google font style">
+      <created>1619068406122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619068406122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +131,7 @@
     <MESSAGE value="new update change name" />
     <MESSAGE value="Add Map Image" />
     <MESSAGE value="Add Map Image update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Map Image update" />
+    <MESSAGE value="Add a google font style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a google font style" />
   </component>
 </project>
