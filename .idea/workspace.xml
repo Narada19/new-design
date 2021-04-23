@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +92,8 @@
       <workItem from="1618891096122" duration="3608000" />
       <workItem from="1618933941430" duration="2677000" />
       <workItem from="1619022238040" duration="4607000" />
-      <workItem from="1619062027324" duration="10004000" />
+      <workItem from="1619062027324" duration="11334000" />
+      <workItem from="1619194833010" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="new update change name">
       <created>1618934958088</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619068780066</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New icone tag">
+      <created>1619098840894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619098840894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +150,7 @@
     <MESSAGE value="Add Map Image update" />
     <MESSAGE value="Add a google font style" />
     <MESSAGE value="New map Dot Modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="New map Dot Modification" />
+    <MESSAGE value="New icone tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="New icone tag" />
   </component>
 </project>
