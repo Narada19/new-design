@@ -907,6 +907,14 @@ a.cContactButton {
     left: 78.5%;
 }
 @media (max-width: 768px) {
+    .counter {
+        display: block;
+        font-size: 50px;
+        font-weight: 700;
+        color: #666;
+        line-height: 28px;
+        font-family: Oswald,sans-serif;
+    }
     .cAnalystReports .cCitations {
         color: #212a32;
         padding: 20px 15px;
