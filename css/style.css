@@ -223,7 +223,7 @@ color: #000 !important;
 }
 .megamenu a.nav-link.dropdown-item {
     padding:0;
-    line-height:40px;
+    line-height:30px;
     height:auto;
 }
 .cMenuInnerCol {
@@ -904,6 +904,16 @@ a.cContactButton {
     left: 78.5%;
 }
 @media (max-width: 768px) {
+    .cAnalystReports .cCitations {
+        color: #212a32;
+        padding: 20px 15px;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: #d7e2de;
+        border-top: none;
+        border-bottom: none;
+        margin: 160px 0 0 0;
+    }
     .dot {
         width: 16px;
         height: 16px;
