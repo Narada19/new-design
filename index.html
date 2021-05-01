@@ -208,7 +208,7 @@
                 </li>
                 <li class="nav-item dropdown megamenu-li dmenu">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
-                    <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01" style="display: block !important;">
+                    <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
                         <div class="container-fluid">
                             <div class="row cInlineMenuRow px-3">
                                 <div class="col-md-12 col-lg-1">
@@ -276,7 +276,7 @@
             <div class="cMenuPositionRelative">
                 <ul class="navbar-nav navbar-light cMenuMargin">
                     <li class="nav-item">
-                        <a class="cMenuLinkTracking  cContactButton" href="contact/index.html">Contact </a>
+                        <a class="cMenuLinkTracking  cContactButton" href="#contact_us">Contact </a>
                     </li>
                     <li class="nav-item dmenu dropdown ">
                         <a class="cMenuLinkTracking nav-link cUserLogin dropdown-toggle imagelink cLoginLink" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -1226,12 +1226,6 @@
                             <div class="owl-item">
                                 <div class="bbb_item is_new">
                                     <div class="d-flex flex-column align-items-center justify-content-center cliens">
-                                        <img class="img-fluid" src="./img/c3.png" alt=""></div>
-                                </div>
-                            </div>
-                            <div class="owl-item">
-                                <div class="bbb_item is_new">
-                                    <div class="d-flex flex-column align-items-center justify-content-center cliens">
                                         <img class="img-fluid" src="./img/c4.png" alt=""></div>
                                 </div>
                             </div>
@@ -1366,9 +1360,9 @@
                     </div>
                 </a>
                 <p>We are an innovative Digital Enabler, helping companies to embrace Digital Technologies to transform their business World.</p>
-                <p>© 2021 Silverleap Technology (Pvt)Ltd, All rights reserved</p>
+                <p>© 2021 Silverleap Technology Private Limited, All rights reserved</p>
             </div>
-            <div class="col-md-3 footer-nav animated fadeInUp">
+            <div class="col-md-3 footer-nav animated fadeInUp" id="contact_us">
                 <h4>Contact Us </h4>
                 <ul class="list">
                     <li> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; <a href="#">43 Dehiwala Road, Pepiliyana - Colombo Sri Lanka</a></li>
@@ -1378,10 +1372,10 @@
                 </ul>
             </div>
             <div class="col-md-3 footer-nav animated fadeInUp">
-                <h4>Menu </h4>
+                <h4>Company </h4>
                 <ul class="list">
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#contact_us">Contacts</a></li>
                     <li><a href="#">Terms & Condition</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
@@ -1405,7 +1399,7 @@
                     </div>
                     <div class="form-group ">
                         <div class=" content">
-                            <a class="btn " href="#" role="button">Subscribe Now</a>
+                            <a class="btn " href="#" role="button" data-toggle="modal" data-target="#SubscribeModal">Subscribe Now</a>
                         </div>
                     </div>
                 </form>
@@ -1413,6 +1407,26 @@
         </div>
     </div>
 </footer>
+
+<!-- Modal HTML -->
+<div id="SubscribeModal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="icon-box">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </div>
+                <h4 class="modal-title w-100">Thank You!</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">Your Request is Successfully Communicate Our Team Will Contact You !</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 

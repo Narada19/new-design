@@ -1435,35 +1435,85 @@ section.cHomepageHeader.cMobileHeader h1 {
     .cCustomers  .cCustomerQuote { padding: 40px 0px 0; }
 }
 
-
-/* .cHighlighted.cCitations { z-index:10; position:absolute; } */
+.modal-confirm {
+    color: #636363;
+    width: 325px;
+    font-size: 14px;
+}
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #b7222a;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-confirm .icon-box i {
+    font-size: 58px;
+    position: relative;
+    top: 3px;
+}
+.modal-confirm.modal-dialog {
+    margin-top: 80px;
+}
+.modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #b7222a;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+}
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+    background: #b7222a;
+    outline: none;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
 .cAnalystReports { position: relative; z-index: 10; }
 
 .cIntroContent {
     font-weight: 200;
-}
-
-.modal-dialog {
-    max-width:1080px;
-    margin-top: 8rem;
-}
-
-.modal-content {
-    background-color: transparent;
-}
-
-.close {
-    color:#fff;
-    text-shadow:none;
-}
-.close span {
-
-    position: absolute;
-    color: #fff !important;
-    font-size: 43px;
-    padding: 0 0 0 15px;
-    margin-top: -10px;
-
 }
 
 .cIntroContent a.cButton {
