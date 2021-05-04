@@ -1483,11 +1483,14 @@
 
     $('.slider').slick({
         autoplay: true,
-        speed: 1500,
+        // autoplaySpeed: 0,
+        speed: 4300,
+        infinite: 'infinite',
         lazyLoad: 'progressive',
         arrows: false,
         dots: true,
     }).slickAnimation();
+
 
     $(document).ready(function () {
         $('.navbar-light .dmenu').hover(function () {
