@@ -42,36 +42,8 @@ $(document).on('ready', function () {
 });
 
 
-// $(document).ready(function() {
-//
-//     $('.owl-carousel').owlCarousel({
-//         dots: false,
-//         items:1,
-//         loop:true,
-//         margin:10,
-//         autoplay:true,
-//         autoplayTimeout:1000,
-//         autoplayHoverPause:true,
-//         responsive:{
-//             0:{
-//                 items:1
-//             },
-//             600:{
-//                 items:1
-//             },
-//             1000:{
-//                 items:1
-//             }
-//         }
-//     });
-//
-// });
-
-
 $(document).ready(function()
 {
-
-
     if($('.bbb_slider').length)
     {
         var trendsSlider = $('.bbb_slider');
@@ -82,7 +54,7 @@ $(document).ready(function()
                 nav:false,
                 dots:false,
                 autoplay:true,
-                autoplayTimeout:5000,
+                autoplayTimeout:3000,
                 autoplayHoverPause:true,
                 responsive:{
                     0:{
