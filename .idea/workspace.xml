@@ -2,6 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="New icone tag">
+      <change afterPath="$PROJECT_DIR$/img/10J_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/10J_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1a_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1a_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2b_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2b_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3c_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3c_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4d_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/4d_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5e_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/5e_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/api-security_result.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/api-security_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c10_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c10_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c1_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c1_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c2_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c2_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c3_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c3_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c4_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c4_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c5_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c5_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c6_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c6_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c7_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c7_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c8_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c8_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c9_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c9_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cyracom-logo_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cyracom-logo_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ebay-story_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ebay-story_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elemants3_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elemants3_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elemants4_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/elemants4_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main01_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main01_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main02_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/main02_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/map.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/next_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/next_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/obbg-green_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/obbg-green_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pattern-6_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pattern-6_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-10_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-10_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-11_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-11_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-12_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-12_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-13_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-13_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-14_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-14_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-15_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-15_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-16_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-16_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-17_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-17_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-18_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-18_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-1_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-1_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-2_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-2_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-3_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-3_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-4_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-4_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-5_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-5_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-6_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-6_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-7_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-7_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-8_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-8_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-9_result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio-9_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qantas-logo-v2_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qantas-logo-v2_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qantas-story-400x225-v2_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qantas-story-400x225-v2_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s1_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s1_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s2_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s2_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s3_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s3_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s4_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s4_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s5_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s5_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s6_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s6_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s7_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s7_result.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s8_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/s8_result.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -99,7 +210,9 @@
       <workItem from="1619980395202" duration="3676000" />
       <workItem from="1620010654863" duration="7220000" />
       <workItem from="1620099327324" duration="16350000" />
-      <workItem from="1620187623244" duration="21462000" />
+      <workItem from="1620187623244" duration="22108000" />
+      <workItem from="1620274539611" duration="665000" />
+      <workItem from="1620281234870" duration="2460000" />
     </task>
     <task id="LOCAL-00001" summary="new update change name">
       <created>1618934958088</created>
