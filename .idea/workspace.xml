@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="New icone tag">
-      <change afterPath="$PROJECT_DIR$/img/2b.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/4d.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/5e.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/old-img/2b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/old-img/4d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/old-img/5e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/old-img/map-old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/old-img/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wso2-menu-search-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wso2-open-banking-logo-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5e.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +105,7 @@
       <workItem from="1620099327324" duration="16350000" />
       <workItem from="1620187623244" duration="22108000" />
       <workItem from="1620274539611" duration="665000" />
-      <workItem from="1620281234870" duration="3750000" />
+      <workItem from="1620281234870" duration="4003000" />
     </task>
     <task id="LOCAL-00001" summary="new update change name">
       <created>1618934958088</created>
