@@ -297,10 +297,20 @@ body.mmactive {
     font-weight: bold;
 }
 
+.slide .slide__content--headings .mdf-h2 {
+    font-size: 2rem;
+    line-height: 8vh;
+}
+
 .slide .slide__content--headings p {
     font-size: 18px;
     line-height: 30px;
 }
+
+.slide .slide__content--headings .mdf-para {
+    font-size: 16px;
+}
+
 .slide .slide__content--headings .animated {
     transition: all 0.5s ease;
 }
