@@ -28,6 +28,9 @@ nav.navbar {width:100%;}
 .text-gray{
     color: #666 !important;
 }
+.bg-gray{
+    background: #00000012 !important;
+}
 img {
     max-width: 100%;
 }
@@ -290,6 +293,7 @@ body.mmactive {
     color: #fff;
     padding-top: 140px;
 }
+
 .slide .slide__content--headings h2 {
     font-size: 3rem;
     margin: 10px 0;
@@ -309,6 +313,7 @@ body.mmactive {
 
 .slide .slide__content--headings .mdf-para {
     font-size: 16px;
+    line-height: 25px;
 }
 
 .slide .slide__content--headings .animated {
@@ -1171,73 +1176,6 @@ a.cContactButton {
     }
 }
 
-@-webkit-keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 #346ab4;
-    }
-    100% {
-        box-shadow: 0 0 0 7px rgba(52, 106, 180, 0);
-    }
-}
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 #346ab4;
-    }
-    100% {
-        box-shadow: 0 0 0 7px rgba(52, 106, 180, 0);
-    }
-}
-.img-map {
-    width: 100%;
-    max-width: 100%;
-}
-#map {
-    position: relative;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-.dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    -webkit-animation: pulse 1.5s infinite ease-out;
-    animation: pulse 1.5s infinite ease-out;
-    background: #346ab4;
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-}
-.dot:before {
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.4);
-}
-.dot:nth-child(odd) {
-    -webkit-animation: pulse 1.5s infinite ease-out 0.3s;
-    animation: pulse 1.5s infinite ease-out 0.3s;
-}
-.dot-15 {
-    top: 48%;
-    left: 74%;
-}
-.dot-18 {
-    top: 58%;
-    left: 66%;
-}
-.dot-21 {
-    top: 75%;
-    left: 78.5%;
-}
-
 @media (max-width: 768px) {
     .counter {
         display: block;
@@ -1257,9 +1195,78 @@ a.cContactButton {
         border-bottom: none;
         margin: 160px 0 0 0;
     }
+}
+
+
+/*--------- Map Style ----------*/
+/* Original pulsing dots by sharla */
+@-webkit-keyframes pulse {
+    0% { box-shadow: 0px 0px 0px 0px #b7222a;}
+    100% {box-shadow: 0px 0px 0px 7px rgba(52, 106, 180, 0);}
+}
+@keyframes pulse {
+    0% {box-shadow: 0px 0px 0px 0px #b7222a;}
+    100% {
+        box-shadow: 0px 0px 0px 7px rgba(52, 106, 180, 0);
+    }
+}
+
+.img-map {
+    width: 100%;
+    max-width: 100%;
+}
+
+#map {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    -webkit-animation: pulse 1.5s infinite ease-out;
+    animation: pulse 1.5s infinite ease-out;
+    background: #b7222a;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+}
+.dot:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.4);
+}
+.dot:nth-child(odd) {
+    -webkit-animation: pulse 1.5s infinite ease-out 0.3s;
+    animation: pulse 1.5s infinite ease-out 0.3s;
+}
+.dot-15 {
+    top: 63.3%;
+    left: 73.8%;
+}
+.dot-18 {
+    top: 58.3%;
+    left: 67.2%;
+}
+.dot-21 {
+    top: 76%;
+    left: 85.7%;
+}
+@media (min-width: 768px) {
     .dot {
-        width: 16px;
-        height: 16px;
+        width: 8px;
+        height: 8px;
     }
     .dot:before {
         width: 4px;
@@ -1267,21 +1274,24 @@ a.cContactButton {
     }
     @-webkit-keyframes pulse {
         0% {
-            box-shadow: 0 0 0 0 #346ab4;
+            box-shadow: 0px 0px 0px 0px #b7222a;
         }
         100% {
-            box-shadow: 0 0 0 10px rgba(52, 106, 180, 0);
+            box-shadow: 0px 0px 0px 10px rgba(52, 106, 180, 0);
         }
     }
     @keyframes pulse {
         0% {
-            box-shadow: 0 0 0 0 #346ab4;
+            box-shadow: 0px 0px 0px 0px #b7222a;
         }
         100% {
-            box-shadow: 0 0 0 10px rgba(52, 106, 180, 0);
+            box-shadow: 0px 0px 0px 10px rgba(52, 106, 180, 0);
         }
     }
 }
+/*-----------End Map style-------------*/
+
+
 .Exp-serach {
     position: absolute;
     width: 0%;
