@@ -4,9 +4,9 @@
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="New icone tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/text.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <workItem from="1620274539611" duration="665000" />
       <workItem from="1620281234870" duration="6749000" />
       <workItem from="1620318490611" duration="600000" />
-      <workItem from="1620360139483" duration="4312000" />
+      <workItem from="1620360139483" duration="10181000" />
     </task>
     <task id="LOCAL-00001" summary="new update change name">
       <created>1618934958088</created>
