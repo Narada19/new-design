@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="" />
 =======
     <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="New icone tag">
@@ -29,6 +30,9 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
 >>>>>>> e7f36f1b9cb861eb30b9c790770b806b5239d8f5
+=======
+    <list default="true" id="39580e74-1483-47e9-b5b4-e241a71037bf" name="Default Changelist" comment="New icone tag" />
+>>>>>>> backup
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +129,10 @@
       <workItem from="1620099327324" duration="16350000" />
       <workItem from="1620187623244" duration="22108000" />
       <workItem from="1620274539611" duration="665000" />
-      <workItem from="1620281234870" duration="6124000" />
+      <workItem from="1620281234870" duration="6749000" />
+      <workItem from="1620318490611" duration="600000" />
+      <workItem from="1620360139483" duration="10181000" />
+      <workItem from="1620402020721" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="new update change name">
       <created>1618934958088</created>
