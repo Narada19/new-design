@@ -2067,6 +2067,165 @@ a.cButton:hover {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+/*-----------------------*/
+
+.service-element, .case-study-element {
+    background: #fff;
+    padding: 5.375em 3.125em 5.375em 3.125em;
+}
+
+.hover-element {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.service-element .hover-element__initial, .case-study-element .hover-element__initial {
+    z-index: 2;
+    position: relative;
+}
+
+.hover-element * {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+
+.hover-element:hover .hover-element__reveal, .hover-element.hover--active .hover-element__reveal {
+    opacity: 1;
+}
+
+.service-element .hover-element__reveal, .case-study-element .hover-element__reveal {
+    z-index: 1;
+}
+.hover-element .hover-element__reveal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.hover-element * {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+[data-overlay="7"]:before {
+    opacity: 0.7;
+}
+
+[data-overlay]:before {
+    position: absolute;
+    content: '';
+    background: #242a2d;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.service-element .background-image-holder, .case-study-element .background-image-holder {
+    transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+}
+
+.hover-element * {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+.background-image-holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    z-index: 0;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    opacity: 0;
+    background: #242a2d;
+}
+
+.service-element:hover .hover-element__initial *, .case-study-element:hover .hover-element__initial *, .service-element.hover--active .hover-element__initial *, .case-study-element.hover--active .hover-element__initial * {
+    color: #fff;
+}
+
+.service-element h3 {
+    margin: 0;
+}
+.hover-element * {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+
+
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #b7222a;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}
+/*-----------------------*/
+
+
+
 @media screen and (max-width: 1366px) {
     .slide .slide__content--headings h2 {
         line-height: 11vh;
