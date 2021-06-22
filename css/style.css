@@ -1454,16 +1454,16 @@ a.cContactButton {
     animation: pulse 1.5s infinite ease-out 0.3s;
 }
 .dot-15 {
-    top: 63.3%;
-    left: 73.8%;
+    top: 60.3%;
+    left: 76.1%;
 }
 .dot-18 {
-    top: 58.3%;
-    left: 67.2%;
+    top: 55.3%;
+    left: 69.6%;
 }
 .dot-21 {
-    top: 76%;
-    left: 85.7%;
+    top: 79%;
+    left: 85%;
 }
 @media (min-width: 768px) {
     .dot {
